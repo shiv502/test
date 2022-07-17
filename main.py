@@ -14,3 +14,11 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+d = {
+    "name":"sudhanshu",
+    "email" : "sudhanshu@ineuron.ai",
+    "surname" : "kumar"
+}
+db1 = client['mongotest']
+coll = db1['test']
+coll.insert_one(d )
